@@ -6,6 +6,7 @@ var characterSchema = new mongoose.Schema({
   race: String,
   gender: String,
   bloodline: String,
+  homeTown: String,
   wins: { type: Number, default: 0 },
   losses: { type: Number, default: 0 },
   reports: { type: Number, default: 0 },

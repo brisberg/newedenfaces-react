@@ -53,6 +53,7 @@ class Character extends React.Component {
           <h4 className='lead'>Race: <strong>{this.state.race}</strong></h4>
           <h4 className='lead'>Bloodline: <strong>{this.state.bloodline}</strong></h4>
           <h4 className='lead'>Gender: <strong>{this.state.gender}</strong></h4>
+          <h4 className='lead'>Home Town: <strong>{this.state.homeTown}</strong></h4>
           <button className='btn btn-transparent'
                   onClick={CharacterActions.report.bind(this, this.state.characterId)}
                   disabled={this.state.isReported}>

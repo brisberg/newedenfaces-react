@@ -9,6 +9,7 @@ class CharacterStore {
     this.name = 'TBD';
     this.race = 'TBD';
     this.bloodline = 'TBD';
+    this.homeTown = 'TBD';
     this.gender = 'TBD';
     this.wins = 0;
     this.losses = 0;
